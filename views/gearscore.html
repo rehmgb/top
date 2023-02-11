@@ -1,0 +1,74 @@
+
+<style>
+    .controls {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .controls label{
+        line-height: 1.8;
+        padding-left: 10px;
+    }
+
+    th.tablesort-sortable {
+        cursor: pointer;
+    }
+
+    th.tablesort-sortable.tablesort-asc span:after {
+       content: " \25b2";
+        /*display: block;*/
+        /*padding-right: 10px;*/
+        /*background:#c3c5a9 url("//allods.cdn.gmru.net/static/img/icons/sorter.png") no-repeat 90% -15px;*/
+
+    }
+    
+    th.tablesort-sortable.tablesort-desc span:after {
+        content: " \25bc";
+        /*display: block;*/
+        /*padding-right: 10px;*/
+        /*background:#c3c5a9 url("//allods.cdn.gmru.net/static/img/icons/sorter.png") no-repeat 90% 5px;*/
+    }
+
+    .showIfLast {
+        display: none;
+    }
+
+</style>
+
+
+
+
+
+ 
+<table class="top100_table"  cellpadding="0" cellspacing="0" ts-wrapper>
+<thead>
+    <tr>
+		<th>&#9650;</th>
+		<th>Фракция</th>
+			<th>Персонаж</th>
+			<th>Уровень</th>
+			<th>Класс</th>
+			<th>Раса</th>
+			<th>GS</th>
+			
+		</tr>
+</thead>
+<tbody>		
+<tr ng-repeat="row in data" ts-repeat="">
+  <td>{{ row.pos }}</td>
+   <td>{{ row.faction }}</td>
+    <td>{{ row.name }} <div class="top100_guild_name">{{ row.guild }}</div></td>
+	    <td>{{ row.level }}</td>
+    <td>{{ row.class }}</td>
+	 <td>{{ row.race }}</td>
+	    <td>{{ row.gear_score }}</td>
+
+
+</tbody>
+</table>
+
+
+</div>
+
+</body>
+</html>

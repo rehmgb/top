@@ -1,0 +1,45 @@
+
+<html >
+<meta charset="utf-8">
+
+    <title></title>
+
+<link rel='stylesheet' href='/top/style/style.css' type='text/css' />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="/top/app-js/angular-route.min.js"></script>
+<script src="/top/app-js/angular-tablesort.js"></script>
+
+<script src="/top/app-js/controllers.js"></script>
+<script src="/top/app-js/filters.js"></script>
+<script src="/top/app-js/directives.js"></script>
+<script src="/top/app-js/app.js"></script>
+
+<body>
+<div class="logo__wrapper">
+                    <a href="/" class="logo"></a>
+
+                </div>
+
+
+
+</span>
+</div>
+<div class="content_inner">
+
+<div class="article">
+
+<div ng-app="rating">
+    <div ng-include="'views/rating_selector.html'" ng-controller="rating_selector"></div>
+    <div class="rating_table_container" ng-view></div>
+</div>
+</div>
+</div>	   
+</body>
+</html>
+
+ 
+
+ 

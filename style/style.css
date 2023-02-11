@@ -1,0 +1,169 @@
+
+	body {
+		margin:0;
+		padding:0;
+		font-weight: normal;
+		font-style: normal;
+		color: #555;
+		background:#0e0e0e url(/top/style/icon/bg.png) no-repeat center top;background-attachment:fixed;
+	}
+	.logo__wrapper {
+		position: relative;
+		margin: 0 auto;
+		width: 505px;
+		height: 330px;
+		top: -20px;
+	}
+
+	.logo{
+		background: transparent url(/top/style/icon/logo.png) no-repeat 50% 50%;
+		font: 0/0 a;
+		color: transparent;
+		text-shadow: none;
+		border: 0;
+		height: 330px;
+		width: 505px;
+		display: block;
+	}
+
+	.article {
+		width:613px;
+		margin-left: auto;
+		margin-right: auto;
+		background:url("/top/style/icon/bg_block.jpg");
+		border:1px solid #614b00;
+		padding:10px 10px;
+
+	}
+		.content_inner{
+		width:635px;
+		margin-left: auto;
+		margin-right: auto;
+		background:url("/top/style/icon/bg_content.png");
+		padding:10px 10px;
+	}
+	/* ratings */
+	.ratings__selector {
+		position: relative;
+		padding-bottom: 20px;
+	}
+
+	.ratings__buttons-row {
+		text-align: center;
+	}
+
+	.ratings__button{
+		background:url("/top/style/icon/rating_icons6.png") no-repeat 0 0;
+		color: transparent;
+		display: inline-block;
+		font: 0/0 a;
+		height: 140px;
+		width: 114px;
+		z-index: 5;
+		position: relative;
+	}
+
+	.ratings__button--guilds {
+		background-position: 0 0;
+	}
+	.ratings__button--guilds:hover,
+	.ratings__button--guilds.active {
+		background-position: 0 -140px;
+	}
+
+	.ratings__button--ships {
+		background-position: -117px 0;
+	}
+	.ratings__button--ships:hover,
+	.ratings__button--ships.active {
+		background-position: -117px -140px;
+	}
+
+	.ratings__button--gearscore {
+		background-position: -234px 0;
+	}
+	.ratings__button--gearscore:hover,
+	.ratings__button--gearscore.active {
+		background-position: -234px -140px;
+	}
+
+
+	.ratings__button--arena {
+		background-position: -351px 0;
+	}
+	.ratings__button--arena:hover,
+	.ratings__button--arena.active {
+		background-position: -351px -140px;
+	}
+	.ratings__button--blood {
+		background-position: -1169px 0;
+	}
+	.ratings__button--blood:hover,
+	.ratings__button--blood.active {
+		background-position: -1169px -140px;
+	}
+	.ratings__button--alley {
+		background: transparent url(/top/style/icon/alley_button2.png) no-repeat 0 0;
+		border: 0;
+		display: block;
+		height: 96px;
+		font: 0/0 a;
+		color: transparent;
+		text-shadow: none;
+		margin: 0 auto;
+		width: 443px;
+		z-index: 5;
+		position: relative;
+	}
+
+
+	.ratings__button--alley:hover {
+		background-position: 0 -96px;
+	}
+	/* ratings */
+	a {
+		color:#0072bc;
+		text-decoration:underline;
+	}
+
+	#content {width:65%; max-width:1000px; margin:6% auto 0;}
+
+	table {
+		overflow:hidden;
+		margin:5% auto 0;
+		z-index: 5;
+		position: relative;
+	}
+
+	.top100_guild_name, .top100_arena_time {
+
+		font-size: 10px;
+		font-style: italic;
+		color: gray;
+	}
+	.top100_table{
+		background: transparent;
+		width:610px;
+		font-size:11px;
+		border-top:1px solid #b8b29d
+	}
+	.top100_table tr th{
+		border-bottom:1px solid #b8b29d;
+		background: #c3c5a9;
+		text-align:center;
+		padding:5px 0;
+		vertical-align: middle;
+	}
+	.top100_table tr td{
+		
+		border-bottom:1px solid #b8b29d;
+		text-align:center;
+		padding:5px 3px;
+		height:40px;
+		vertical-align: middle;
+	}
+	.top100_table .odd td{
+			background: #c3c5a9;
+	}
+
+
